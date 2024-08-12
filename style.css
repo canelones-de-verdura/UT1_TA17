@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+
+    color: rgb(198, 208, 245);
+    background-color: rgb(48, 52, 70);
+    font-family: Ubuntu, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.avatar {
+    position: absolute;
+    /* hecho a manopla. no sé si era la idea */
+    top: -122px;
+    left: -114px;
+    border-radius: 50%;
+    scale: 25%;
+}
+
+.name,
+.description,
+.follow {
+    text-align: center;
+}
+
+.follow {
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    color: rgb(198, 208, 245);
+    background-color: rgb(231, 130, 132);
+
+    padding: 5px;
+
+    border-color: rgb(231, 130, 132);
+    border-radius: 0%;
+    width: 33%;
+    align-self: center;
+}
+
+.follow:hover {
+    background-color: rgb(237, 135, 150);
+}
